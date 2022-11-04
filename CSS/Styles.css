@@ -242,3 +242,41 @@ box-shadow: 4px -1px 14px -4px rgba(0,0,0,0.84);
      flex-direction: column;
      align-items: center;
 }
+/*formulario*/
+.formulario{
+    background-color: var(--gris);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+.formulario fieldset{
+    border: none;
+}
+.formulario legend{
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color:var(--primario);
+}
+.campo label{
+    display: block;
+    color: var(--blanco);
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+.input-text{
+    width: 100%;
+    border-radius: 1rem;
+}
+#nombre, #tlf, #email, #mensaje{
+    width: 100%;
+    border: none;
+    padding:1.5rem;
+    border-radius: 1rem;
+}
+label{
+    text-align: left;
+}
+.w90{
+    width: 90%;
+}
